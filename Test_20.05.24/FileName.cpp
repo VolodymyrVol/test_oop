@@ -24,8 +24,10 @@ void Dis(T a, B b)
 
 int main()
 {
-	int a = 10;
-	double b = 20;
+	int a;
+	double b;
+	cin >> a;
+	cin >> b;
 	Sum(a, b);
 	Min(a, b);
 	Degree(a, b);
